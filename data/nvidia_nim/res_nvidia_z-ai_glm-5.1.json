@@ -1,0 +1,449 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-9edcc2401977a871",
+      "object": "chat.completion",
+      "created": 1777894630,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -1.311301275563892e-06,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.003177833277732134,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -1.0728830375228426e-06,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -1.0847986231965479e-05,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 26,
+        "total_tokens": 30,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-b2448e6c3cc803c1",
+      "object": "chat.completion",
+      "created": 1777894677,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H3O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -1.6212332411669195e-05,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "logprob": -0.006716414820402861,
+                "bytes": [
+                  51
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -1.1920922133867862e-06,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -4.577531944960356e-05,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 45,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-9a036b3ceea2ca11",
+      "object": "chat.completion",
+      "created": 1777894754,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -4.768360213347478e-06,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -7.748573807475623e-06,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 24,
+        "total_tokens": 26,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-854ea5e9aa05dde2",
+      "object": "chat.completion",
+      "created": 1777894767,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -2.5152843591058627e-05,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -4.351044481154531e-05,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 40,
+        "total_tokens": 42,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-9c5ab92fa72ef608",
+      "object": "chat.completion",
+      "created": 1777894776,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -1.5020257706055418e-05,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": 0.0,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -7.867782187531702e-06,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 26,
+        "total_tokens": 29,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-80f760e1ead405c6",
+      "object": "chat.completion",
+      "created": 1777894790,
+      "model": "z-ai/glm-5.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -8.583032467868179e-06,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "logprob": -3.7431014789035544e-05,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|user|>",
+                "logprob": -6.556489552167477e-06,
+                "bytes": [
+                  60,
+                  124,
+                  117,
+                  115,
+                  101,
+                  114,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 154827,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 43,
+        "total_tokens": 46,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

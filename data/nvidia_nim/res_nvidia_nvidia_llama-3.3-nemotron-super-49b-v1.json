@@ -1,0 +1,461 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-ba45429c9962709c",
+      "object": "chat.completion",
+      "created": 1777894494,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.003448850242421031,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.2269589751958847,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -6.222531374078244e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.00233853398822248,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 39,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-88ba10f7775fc512",
+      "object": "chat.completion",
+      "created": 1777894508,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H3O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.031404003500938416,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "logprob": -0.23204196989536285,
+                "bytes": [
+                  51
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -7.283422019099817e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.006459192372858524,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 50,
+        "total_tokens": 54,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-b504816439614979",
+      "object": "chat.completion",
+      "created": 1777894509,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -0.004279859364032745,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.00290198833681643,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 35,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-9df176427835a474",
+      "object": "chat.completion",
+      "created": 1777894509,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -0.003460730193182826,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.0012642494402825832,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 49,
+        "total_tokens": 51,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-81b6cc23abba839d",
+      "object": "chat.completion",
+      "created": 1777894510,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.01423984207212925,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -2.5987286790041253e-05,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.009475613944232464,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 38,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-a36d2d2cbfd62bc2",
+      "object": "chat.completion",
+      "created": 1777894511,
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -0.007350424770265818,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "logprob": -0.00029571453342214227,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "logprob": -0.004978047218173742,
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 52,
+        "total_tokens": 55,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

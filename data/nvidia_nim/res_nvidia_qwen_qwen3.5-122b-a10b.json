@@ -1,0 +1,461 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-8b509083e3cee96b",
+      "object": "chat.completion",
+      "created": 1777913253,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.007994912564754486,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.22883231937885284,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -6.794906312279636e-06,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.001387705677188933,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 41,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-b287b59a2fdac63c",
+      "object": "chat.completion",
+      "created": 1777913260,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H3O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.007475734688341618,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "logprob": -0.3104385733604431,
+                "bytes": [
+                  51
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -0.00023862851958256215,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.0031457485165446997,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 54,
+        "total_tokens": 58,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-a81e84df97eb9de1",
+      "object": "chat.completion",
+      "created": 1777913263,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -0.0008759237825870514,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.0012916326522827148,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 37,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-a8bc96e1efe696a5",
+      "object": "chat.completion",
+      "created": 1777913270,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -0.004558765795081854,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.0004231034545227885,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 53,
+        "total_tokens": 55,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-b64e58b0203ef052",
+      "object": "chat.completion",
+      "created": 1777913271,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.04259227588772774,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -0.00013100242358632386,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.0015949398512020707,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 37,
+        "total_tokens": 40,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-b167f0c08a0fcc95",
+      "object": "chat.completion",
+      "created": 1777913285,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -0.008819318376481533,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "logprob": -0.00013636612857226282,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -0.0020649556536227465,
+                "bytes": [
+                  60,
+                  124,
+                  105,
+                  109,
+                  95,
+                  101,
+                  110,
+                  100,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 56,
+        "total_tokens": 59,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

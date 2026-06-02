@@ -1,0 +1,334 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-ea849d01225e470bb5a72dd31460e5f7",
+      "object": "chat.completion",
+      "created": 1777894398,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "H₂O",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.009812690317630768,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.04192238673567772,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -0.0001479277852922678,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 29,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-cbaec10adb2742dc9cb952a0b94ec874",
+      "object": "chat.completion",
+      "created": 1777894399,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "H2O",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.01797797717154026,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.8002448678016663,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -0.0023914568591862917,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 46,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-864350ec059247f9a9fc3ef810348c85",
+      "object": "chat.completion",
+      "created": 1777894400,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "4",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -0.00041166413575410843,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 23,
+        "total_tokens": 25,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-7c3e6d3ee8c341ba81c95e7eb222a4ac",
+      "object": "chat.completion",
+      "created": 1777894401,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "5",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -0.0063198949210345745,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 43,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-df63367e6282496daea61b15bca6d9c6",
+      "object": "chat.completion",
+      "created": 1777894401,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "Canberra",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.0019182630348950624,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -3.766942609217949e-05,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 28,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-cbc97d2cff584f578274979f672e4965",
+      "object": "chat.completion",
+      "created": 1777894402,
+      "model": "mistralai/mistral-nemotron",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "Sydney",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sydney",
+                "logprob": -0.004505126737058163,
+                "bytes": [
+                  83,
+                  121,
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -9999.0,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 44,
+        "total_tokens": 46,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  }
+]

@@ -1,0 +1,817 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-8fcc232b203a49a6",
+      "object": "chat.completion",
+      "created": 1777894416,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " H2O\n\nThis formula indicates that water",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.06197489798069,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -1.6927575416048057e-05,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -1.7762025890988298e-05,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.14268118143081665,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "This",
+                "logprob": -0.5288071632385254,
+                "bytes": [
+                  84,
+                  104,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "formula",
+                "logprob": -0.07735836505889893,
+                "bytes": [
+                  102,
+                  111,
+                  114,
+                  109,
+                  117,
+                  108,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "indicates",
+                "logprob": -0.07560426741838455,
+                "bytes": [
+                  105,
+                  110,
+                  100,
+                  105,
+                  99,
+                  97,
+                  116,
+                  101,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "that",
+                "logprob": -1.311301275563892e-06,
+                "bytes": [
+                  116,
+                  104,
+                  97,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "water",
+                "logprob": -0.11773248761892319,
+                "bytes": [
+                  119,
+                  97,
+                  116,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 40,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-ac2ba6bb48ee107a",
+      "object": "chat.completion",
+      "created": 1777894418,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " The chemical formula for water is H2O.",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "The",
+                "logprob": -9.929640509653836e-05,
+                "bytes": [
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "chemical",
+                "logprob": -4.6967357775429264e-05,
+                "bytes": [
+                  99,
+                  104,
+                  101,
+                  109,
+                  105,
+                  99,
+                  97,
+                  108
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "formula",
+                "logprob": 0.0,
+                "bytes": [
+                  102,
+                  111,
+                  114,
+                  109,
+                  117,
+                  108,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "for",
+                "logprob": 0.0,
+                "bytes": [
+                  102,
+                  111,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "water",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  119,
+                  97,
+                  116,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "is",
+                "logprob": -0.0004477690381463617,
+                "bytes": [
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "H",
+                "logprob": -0.00011669908417388797,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -1.0728830375228426e-06,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": 0.0,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ".",
+                "logprob": -0.6326090097427368,
+                "bytes": [
+                  46
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 47,
+        "total_tokens": 57,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-bba8bd8c987873be",
+      "object": "chat.completion",
+      "created": 1777894419,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " 4\n\nHere's the step-",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "",
+                "logprob": -1.1920928244535389e-07,
+                "bytes": [],
+                "top_logprobs": []
+              },
+              {
+                "token": "4",
+                "logprob": -2.1457441107486375e-05,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.04698138311505318,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.0011638780124485493,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Here",
+                "logprob": -0.5315841436386108,
+                "bytes": [
+                  72,
+                  101,
+                  114,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "'",
+                "logprob": -0.0019350391812622547,
+                "bytes": [
+                  39
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "s",
+                "logprob": 0.0,
+                "bytes": [
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "the",
+                "logprob": -0.038168903440237045,
+                "bytes": [
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "step",
+                "logprob": -0.6751530170440674,
+                "bytes": [
+                  115,
+                  116,
+                  101,
+                  112
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "-",
+                "logprob": -3.576278118089249e-07,
+                "bytes": [
+                  45
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 29,
+        "total_tokens": 39,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-b95cb3cef5d80ded",
+      "object": "chat.completion",
+      "created": 1777894420,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " Under the new 2026 standards,",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Under",
+                "logprob": -0.01623247005045414,
+                "bytes": [
+                  85,
+                  110,
+                  100,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "the",
+                "logprob": -4.291525328881107e-06,
+                "bytes": [
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "new",
+                "logprob": -0.6094452738761902,
+                "bytes": [
+                  110,
+                  101,
+                  119
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.005384229123592377,
+                "bytes": [],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": 0.0,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "0",
+                "logprob": 0.0,
+                "bytes": [
+                  48
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -3.123234637314454e-05,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "6",
+                "logprob": 0.0,
+                "bytes": [
+                  54
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "standards",
+                "logprob": -0.0006268443539738655,
+                "bytes": [
+                  115,
+                  116,
+                  97,
+                  110,
+                  100,
+                  97,
+                  114,
+                  100,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.05160528048872948,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 47,
+        "total_tokens": 57,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-84324c3c08a5e612",
+      "object": "chat.completion",
+      "created": 1777894421,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " Canberra\n``\nCanberra is",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -2.622600959512056e-06,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ber",
+                "logprob": -3.576278118089249e-07,
+                "bytes": [
+                  98,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ra",
+                "logprob": -3.3378546504536644e-06,
+                "bytes": [
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -2.622600959512056e-06,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "``",
+                "logprob": -0.11404421925544739,
+                "bytes": [
+                  96,
+                  96
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.010626988485455513,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Can",
+                "logprob": -0.22168049216270447,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ber",
+                "logprob": -3.135155202471651e-05,
+                "bytes": [
+                  98,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ra",
+                "logprob": 0.0,
+                "bytes": [
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "is",
+                "logprob": -0.00026174934464506805,
+                "bytes": [
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 31,
+        "total_tokens": 41,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-8f9c0435929c6201",
+      "object": "chat.completion",
+      "created": 1777894423,
+      "model": "stg/mistralai/mixtral-8x7b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " Sydney (Note: As of 202",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sydney",
+                "logprob": -9.298280929215252e-06,
+                "bytes": [
+                  83,
+                  121,
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "(",
+                "logprob": -0.002144895726814866,
+                "bytes": [
+                  40
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Note",
+                "logprob": -0.4618215560913086,
+                "bytes": [
+                  78,
+                  111,
+                  116,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ":",
+                "logprob": -9.536738616588991e-07,
+                "bytes": [
+                  58
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "As",
+                "logprob": -0.28531700372695923,
+                "bytes": [
+                  65,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "of",
+                "logprob": -0.07889778912067413,
+                "bytes": [
+                  111,
+                  102
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.10176509618759155,
+                "bytes": [],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -1.1920928244535389e-07,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "0",
+                "logprob": 0.0,
+                "bytes": [
+                  48
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 50,
+        "total_tokens": 60,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

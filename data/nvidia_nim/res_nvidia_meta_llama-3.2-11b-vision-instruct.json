@@ -1,0 +1,375 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-07d6c1e2a2bb42eb8699724128eae20d",
+      "object": "chat.completion",
+      "created": 1777894188,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H2O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -8.308542601298541e-05,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.28618136048316956,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -5.483612312673358e-06,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.005250236950814724,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 67,
+        "total_tokens": 71,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-07c8382045bf40729fb9cb293e66c591",
+      "object": "chat.completion",
+      "created": 1777894192,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H2O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.0008976006065495312,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.06934625655412674,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -4.410646579344757e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.011700929142534733,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 82,
+        "total_tokens": 86,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-d5cbeb601fe84d83828ccfed7f592494",
+      "object": "chat.completion",
+      "created": 1777894198,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -7.152555099310121e-07,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -3.015949550899677e-05,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 65,
+        "total_tokens": 67,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-bf42577da7de47f8841a5a8b591d4b32",
+      "object": "chat.completion",
+      "created": 1777894206,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -8.21318244561553e-05,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.0015359044773504138,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 81,
+        "total_tokens": 83,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-0077b7777bdb4ad9ac0498799bfc08fb",
+      "object": "chat.completion",
+      "created": 1777894260,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.0016800350276753306,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -5.245195097813848e-06,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.38695353269577026,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 67,
+        "total_tokens": 70,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-55af191e35224cce8790618e52c6893d",
+      "object": "chat.completion",
+      "created": 1777894260,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -0.004218489397317171,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "logprob": -1.3708974620385561e-05,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.2255994826555252,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 84,
+        "total_tokens": 87,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  }
+]

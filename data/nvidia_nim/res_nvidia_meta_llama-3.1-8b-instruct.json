@@ -1,0 +1,649 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-4c07a6e4-1324-4ea6-8203-a7953ab96245",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "H2O",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.0001038259,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "H",
+                    "logprob": -0.0001038259,
+                    "bytes": [
+                      72
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "2",
+                "logprob": -0.6352283,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "2",
+                    "logprob": -0.6352283,
+                    "bytes": [
+                      50
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "O",
+                "logprob": -2.1457441e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "O",
+                    "logprob": -2.1457441e-05,
+                    "bytes": [
+                      79
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.011104569,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.011104569,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894124,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 4,
+        "total_tokens": 59,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 16
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705622,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705622,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894124962,
+          "prefill_wait_time_ms": 0.902156,
+          "prefill_time_ms": 898.633618,
+          "ttft_ms": 899.535774,
+          "total_time_ms": 916.244049,
+          "kv_hit_rate": 0.25,
+          "router_queue_depth": 0
+        }
+      }
+    },
+    "dirty": {
+      "id": "chatcmpl-13cf800a-508d-483f-9a58-ff47e782b439",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "H2O",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.0020719743,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "H",
+                    "logprob": -0.0020719743,
+                    "bytes": [
+                      72
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "2",
+                "logprob": -0.014404715,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "2",
+                    "logprob": -0.014404715,
+                    "bytes": [
+                      50
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "O",
+                "logprob": -4.7324967e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "O",
+                    "logprob": -4.7324967e-05,
+                    "bytes": [
+                      79
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.04270445,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.04270445,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894126,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 70,
+        "completion_tokens": 4,
+        "total_tokens": 74,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 16
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705624,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705624,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894126775,
+          "prefill_wait_time_ms": 0.442077,
+          "prefill_time_ms": 35.45704,
+          "ttft_ms": 35.899117000000004,
+          "total_time_ms": 77.634999,
+          "kv_hit_rate": 0.2,
+          "router_queue_depth": 0
+        }
+      }
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-3d039aa7-6f8d-4bce-8b08-3e766eb1e22c",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "4",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -6.7949063e-06,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "4",
+                    "logprob": -6.7949063e-06,
+                    "bytes": [
+                      52
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.0005669179,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.0005669179,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894127,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 2,
+        "total_tokens": 55,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 16
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705622,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705622,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894127705,
+          "prefill_wait_time_ms": 0.445696,
+          "prefill_time_ms": 710.8731419999999,
+          "ttft_ms": 711.3188379999999,
+          "total_time_ms": 718.834447,
+          "kv_hit_rate": 0.25,
+          "router_queue_depth": 0
+        }
+      }
+    },
+    "dirty": {
+      "id": "chatcmpl-8f6f220e-7592-4913-b120-4fadad38249e",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "5",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -8.0224636e-05,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "5",
+                    "logprob": -8.0224636e-05,
+                    "bytes": [
+                      53
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.0046517965,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.0046517965,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894130,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 69,
+        "completion_tokens": 2,
+        "total_tokens": 71,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 32
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705622,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705622,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894130544,
+          "prefill_wait_time_ms": 2.5969040000000003,
+          "prefill_time_ms": 910.71921,
+          "ttft_ms": 913.316114,
+          "total_time_ms": 913.4153339999999,
+          "kv_hit_rate": 0.4,
+          "router_queue_depth": 0
+        }
+      }
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-4daddace-e0ae-4202-b0d9-2d9bae32a1f2",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "Canberra",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.0059995325,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "Can",
+                    "logprob": -0.0059995325,
+                    "bytes": [
+                      67,
+                      97,
+                      110
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "berra",
+                "logprob": -7.6293654e-06,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "berra",
+                    "logprob": -7.6293654e-06,
+                    "bytes": [
+                      98,
+                      101,
+                      114,
+                      114,
+                      97
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.5760647,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.5760647,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894132,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 3,
+        "total_tokens": 58,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 16
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705620,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705620,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894132703,
+          "prefill_wait_time_ms": 0.60061,
+          "prefill_time_ms": 53.371032,
+          "ttft_ms": 53.971642,
+          "total_time_ms": 165.110986,
+          "kv_hit_rate": 0.25,
+          "router_queue_depth": 0
+        }
+      }
+    },
+    "dirty": {
+      "id": "chatcmpl-e7ba25d3-0223-426b-8f07-388082a01b03",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "content": "Sydney",
+            "role": "assistant",
+            "reasoning_content": null
+          },
+          "finish_reason": "stop",
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -0.030688541,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "Sy",
+                    "logprob": -0.030688541,
+                    "bytes": [
+                      83,
+                      121
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "dney",
+                "logprob": -1.2159274e-05,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": [
+                  {
+                    "token": "dney",
+                    "logprob": -1.2159274e-05,
+                    "bytes": [
+                      100,
+                      110,
+                      101,
+                      121
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -0.2258451,
+                "bytes": null,
+                "top_logprobs": [
+                  {
+                    "token": "<|eot_id|>",
+                    "logprob": -0.2258451,
+                    "bytes": [
+                      60,
+                      124,
+                      101,
+                      111,
+                      116,
+                      95,
+                      105,
+                      100,
+                      124,
+                      62
+                    ]
+                  }
+                ]
+              }
+            ],
+            "refusal": null
+          }
+        }
+      ],
+      "created": 1777894133,
+      "model": "meta/llama-3.1-8b-instruct",
+      "object": "chat.completion",
+      "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 3,
+        "total_tokens": 75,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 16
+        }
+      },
+      "nvext": {
+        "worker_id": {
+          "prefill_worker_id": 7587894591107705622,
+          "prefill_dp_rank": 0,
+          "decode_worker_id": 7587894591107705622,
+          "decode_dp_rank": 0
+        },
+        "timing": {
+          "request_received_ms": 1777894133781,
+          "prefill_wait_time_ms": 0.6680189999999999,
+          "prefill_time_ms": 93.786417,
+          "ttft_ms": 94.454436,
+          "total_time_ms": 106.847832,
+          "kv_hit_rate": 0.0,
+          "router_queue_depth": 0
+        }
+      }
+    }
+  }
+]

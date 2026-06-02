@@ -1,0 +1,420 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-b20a02c455d39e06",
+      "object": "chat.completion",
+      "created": 1777894357,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.03593266382813454,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.01671617291867733,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -1.5735502529423684e-05,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.0016030330443754792,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 29,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-aeffc2c034a2a9f9",
+      "object": "chat.completion",
+      "created": 1777894358,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.09699591249227524,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": -0.36601337790489197,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -0.007452662102878094,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -1.0926649570465088,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 46,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-ba008d7a0439de52",
+      "object": "chat.completion",
+      "created": 1777894359,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -0.0007909983396530151,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.003009079024195671,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 23,
+        "total_tokens": 25,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-a2791928e6beb572",
+      "object": "chat.completion",
+      "created": 1777894360,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -0.0018517505377531052,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.0013616346986964345,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 43,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-beb4a2390e89a1d4",
+      "object": "chat.completion",
+      "created": 1777894361,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.013815491460263729,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -3.2305197237292305e-05,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.016128545626997948,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 28,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-a1b7732b9157e5e7",
+      "object": "chat.completion",
+      "created": 1777894362,
+      "model": "stg/mistralai/ministral-14b-instruct-2512",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sydney",
+                "logprob": -0.020314259454607964,
+                "bytes": [
+                  83,
+                  121,
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.05516775697469711,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 44,
+        "total_tokens": 46,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

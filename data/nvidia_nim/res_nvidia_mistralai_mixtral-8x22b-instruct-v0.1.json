@@ -1,0 +1,499 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-b2d05a419448d1e7",
+      "object": "chat.completion",
+      "created": 1777894410,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " H2O",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.1445436179637909,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.30188488960266113,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -9.536738616588991e-07,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.023474400863051414,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 25,
+        "total_tokens": 29,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-88792558028ab4d4",
+      "object": "chat.completion",
+      "created": 1777894411,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " H2O\n\nPlease note that the formula",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.14614398777484894,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.002589208772405982,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": 0.0,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.10198333114385605,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.0005891970940865576,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Please",
+                "logprob": -1.1691200733184814,
+                "bytes": [
+                  80,
+                  108,
+                  101,
+                  97,
+                  115,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "note",
+                "logprob": -0.0008144637104123831,
+                "bytes": [
+                  110,
+                  111,
+                  116,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "that",
+                "logprob": -0.12916140258312225,
+                "bytes": [
+                  116,
+                  104,
+                  97,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "the",
+                "logprob": -0.6171889901161194,
+                "bytes": [
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "formula",
+                "logprob": -1.323293685913086,
+                "bytes": [
+                  102,
+                  111,
+                  114,
+                  109,
+                  117,
+                  108,
+                  97
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 52,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-86aa515bccf8b7b9",
+      "object": "chat.completion",
+      "created": 1777894412,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " 4",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "",
+                "logprob": -0.02666057087481022,
+                "bytes": [],
+                "top_logprobs": []
+              },
+              {
+                "token": "4",
+                "logprob": 0.0,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.0007102350937202573,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 24,
+        "total_tokens": 27,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-8da8e4306fbf06c0",
+      "object": "chat.completion",
+      "created": 1777894413,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " 5",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "",
+                "logprob": -0.44239503145217896,
+                "bytes": [],
+                "top_logprobs": []
+              },
+              {
+                "token": "5",
+                "logprob": -3.576278118089249e-07,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.0031831806991249323,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 42,
+        "total_tokens": 45,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-9c55d085d046515d",
+      "object": "chat.completion",
+      "created": 1777894414,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -0.005241580307483673,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ber",
+                "logprob": 0.0,
+                "bytes": [
+                  98,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ra",
+                "logprob": 0.0,
+                "bytes": [
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -3.123234637314454e-05,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 26,
+        "total_tokens": 30,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-911a159b9932cd12",
+      "object": "chat.completion",
+      "created": 1777894415,
+      "model": "stg/mistralai/mixtral-8x22b-instruct-v0.1",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": " Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": null,
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sydney",
+                "logprob": -0.0010987442219629884,
+                "bytes": [
+                  83,
+                  121,
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "</s>",
+                "logprob": -0.016652513295412064,
+                "bytes": [
+                  60,
+                  47,
+                  115,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 45,
+        "total_tokens": 47,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-fd684926fc6d4514b0f3628adb33f652",
+      "object": "chat.completion",
+      "created": 1777894261,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "H2O",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -2.145764938177308e-06,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "logprob": -0.34853318333625793,
+                "bytes": [
+                  50
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -5.960462772236497e-07,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.003182824235409498,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 55,
+        "total_tokens": 59,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    },
+    "dirty": {
+      "id": "chatcmpl-23d4b439a75a4eff92f4e3a75d7365a3",
+      "object": "chat.completion",
+      "created": 1777894262,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "H3O",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": -0.0003778220561798662,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "logprob": -0.22383539378643036,
+                "bytes": [
+                  51
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": -0.00011085849109804258,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.05666983500123024,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 74,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-7529faf066ce44fca3f85b0b04cb9637",
+      "object": "chat.completion",
+      "created": 1777894263,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "4",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.0005585778853856027,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 53,
+        "total_tokens": 55,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    },
+    "dirty": {
+      "id": "chatcmpl-9fe9bc5c8b364c16b5efcd8faa90ca83",
+      "object": "chat.completion",
+      "created": 1777894264,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "5",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": -2.50339189733495e-06,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.001035987981595099,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 69,
+        "total_tokens": 71,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-31dde66713994a2dab01e91fe08c2075",
+      "object": "chat.completion",
+      "created": 1777894265,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "Canberra",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": -2.777537883957848e-05,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": -1.1920928244535389e-07,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.03365810588002205,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 55,
+        "total_tokens": 58,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    },
+    "dirty": {
+      "id": "chatcmpl-83f53e3424394075b2239f03e5e938df",
+      "object": "chat.completion",
+      "created": 1777894266,
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": null,
+            "content": "Sydney",
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "logprob": -0.010089822113513947,
+                "bytes": [
+                  83,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "logprob": -1.3947389561508317e-05,
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "",
+                "logprob": -0.020838141441345215,
+                "bytes": [],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 72,
+        "total_tokens": 75,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null
+    }
+  }
+]

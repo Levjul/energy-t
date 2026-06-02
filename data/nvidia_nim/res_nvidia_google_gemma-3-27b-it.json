@@ -1,0 +1,486 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-5d6560513436488ea6d8bc8506fd6f66",
+      "object": "chat.completion",
+      "created": 1777893741,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H₂O\n",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": 0.0,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "₂",
+                "logprob": 0.0,
+                "bytes": [
+                  226,
+                  130,
+                  130
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": 0.0,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.014295429922640324,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 35,
+        "completion_tokens": 5,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-903b9a6fef7b4ed18dd6cd9f188314c6",
+      "object": "chat.completion",
+      "created": 1777893743,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H3O\n",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "logprob": 0.0,
+                "bytes": [
+                  72
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "logprob": -0.0015024575404822826,
+                "bytes": [
+                  51
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "logprob": 0.0,
+                "bytes": [
+                  79
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.1003449335694313,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 47,
+        "total_tokens": 52,
+        "completion_tokens": 5,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-b370e22f95db42afa7eced0050432d6d",
+      "object": "chat.completion",
+      "created": 1777893745,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4\n",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "logprob": 0.0,
+                "bytes": [
+                  52
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.03804164379835129,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 28,
+        "total_tokens": 31,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-7d0501aeca544bc7988e202b07bed1dc",
+      "object": "chat.completion",
+      "created": 1777893748,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5\n",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "logprob": 0.0,
+                "bytes": [
+                  53
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "\n",
+                "logprob": -0.3868733048439026,
+                "bytes": [
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 46,
+        "total_tokens": 49,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-89cdc8cff09c4a13be04fda55ed8cb12",
+      "object": "chat.completion",
+      "created": 1777893748,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "logprob": 0.0,
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "logprob": 0.0,
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": -0.011237071827054024,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 33,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-0005cbdc327b46edbf513c627b975e4f",
+      "object": "chat.completion",
+      "created": 1777893749,
+      "model": "google/gemma-3-27b-it",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning_content": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sydney",
+                "logprob": 0.0,
+                "bytes": [
+                  83,
+                  121,
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<end_of_turn>",
+                "logprob": -0.0036159863229840994,
+                "bytes": [
+                  60,
+                  101,
+                  110,
+                  100,
+                  95,
+                  111,
+                  102,
+                  95,
+                  116,
+                  117,
+                  114,
+                  110,
+                  62
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "stop_reason": 106
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 49,
+        "total_tokens": 51,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  }
+]

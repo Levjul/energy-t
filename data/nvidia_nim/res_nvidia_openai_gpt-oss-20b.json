@@ -1,0 +1,1005 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-8f5a1866f9075580",
+      "object": "chat.completion",
+      "created": 1777894542,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "The user: \"What is the",
+            "reasoning_content": "The user: \"What is the"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -4.768370445162873e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "The",
+                "logprob": -0.5572188496589661,
+                "bytes": [
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.04661348834633827,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ":",
+                "logprob": -1.236750841140747,
+                "bytes": [
+                  58
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " \"",
+                "logprob": -0.003453958546742797,
+                "bytes": [
+                  32,
+                  34
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "What",
+                "logprob": -0.07947731018066406,
+                "bytes": [
+                  87,
+                  104,
+                  97,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -3.099436753473128e-06,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.0002451834443490952,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 89,
+        "total_tokens": 99,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-8f7de58820fa31ae",
+      "object": "chat.completion",
+      "created": 1777894543,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "The user asks: \"What is",
+            "reasoning_content": "The user asks: \"What is"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "The",
+                "logprob": -0.5439406633377075,
+                "bytes": [
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.026094553992152214,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asks",
+                "logprob": -0.569873571395874,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ":",
+                "logprob": -0.07218851149082184,
+                "bytes": [
+                  58
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " \"",
+                "logprob": -0.003104868344962597,
+                "bytes": [
+                  32,
+                  34
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "What",
+                "logprob": -0.0005876483046449721,
+                "bytes": [
+                  87,
+                  104,
+                  97,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -4.887569048150908e-06,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 104,
+        "total_tokens": 114,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-aa481e364c4a35ab",
+      "object": "chat.completion",
+      "created": 1777894544,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "The user says: \"You are",
+            "reasoning_content": "The user says: \"You are"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "The",
+                "logprob": -0.7803778648376465,
+                "bytes": [
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.17003220319747925,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " says",
+                "logprob": -0.42060011625289917,
+                "bytes": [
+                  32,
+                  115,
+                  97,
+                  121,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ":",
+                "logprob": -0.6015264391899109,
+                "bytes": [
+                  58
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " \"",
+                "logprob": -0.007072532549500465,
+                "bytes": [
+                  32,
+                  34
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "You",
+                "logprob": -0.25501611828804016,
+                "bytes": [
+                  89,
+                  111,
+                  117
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " are",
+                "logprob": -7.152531907195225e-06,
+                "bytes": [
+                  32,
+                  97,
+                  114,
+                  101
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 87,
+        "total_tokens": 97,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-8ac34d0301481965",
+      "object": "chat.completion",
+      "created": 1777894544,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "We have a conversation. The user",
+            "reasoning_content": "We have a conversation. The user"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -1.1920928244535389e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "We",
+                "logprob": -0.5648146271705627,
+                "bytes": [
+                  87,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " have",
+                "logprob": -0.9522716999053955,
+                "bytes": [
+                  32,
+                  104,
+                  97,
+                  118,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " a",
+                "logprob": -0.5032288432121277,
+                "bytes": [
+                  32,
+                  97
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " conversation",
+                "logprob": -0.6729618906974792,
+                "bytes": [
+                  32,
+                  99,
+                  111,
+                  110,
+                  118,
+                  101,
+                  114,
+                  115,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ".",
+                "logprob": -0.7613557577133179,
+                "bytes": [
+                  46
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " The",
+                "logprob": -0.1381254494190216,
+                "bytes": [
+                  32,
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.4748839735984802,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 103,
+        "total_tokens": 113,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-b634ad0e65da0206",
+      "object": "chat.completion",
+      "created": 1777894545,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "The user says: \"You are",
+            "reasoning_content": "The user says: \"You are"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -8.344646857949556e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "The",
+                "logprob": -0.8963442444801331,
+                "bytes": [
+                  84,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.14483729004859924,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " says",
+                "logprob": -1.1895397901535034,
+                "bytes": [
+                  32,
+                  115,
+                  97,
+                  121,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ":",
+                "logprob": -0.17167386412620544,
+                "bytes": [
+                  58
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " \"",
+                "logprob": -0.0036946148611605167,
+                "bytes": [
+                  32,
+                  34
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "You",
+                "logprob": -0.28570041060447693,
+                "bytes": [
+                  89,
+                  111,
+                  117
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " are",
+                "logprob": -8.583032467868179e-06,
+                "bytes": [
+                  32,
+                  97,
+                  114,
+                  101
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 89,
+        "total_tokens": 99,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-89a59bd2a57649ae",
+      "object": "chat.completion",
+      "created": 1777894546,
+      "model": "openai/gpt-oss-20b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [],
+            "reasoning": "We need to answer only with the",
+            "reasoning_content": "We need to answer only with the"
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<|channel|>",
+                "logprob": 0.0,
+                "bytes": [
+                  60,
+                  124,
+                  99,
+                  104,
+                  97,
+                  110,
+                  110,
+                  101,
+                  108,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "analysis",
+                "logprob": 0.0,
+                "bytes": [
+                  97,
+                  110,
+                  97,
+                  108,
+                  121,
+                  115,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "<|message|>",
+                "logprob": -2.3841855067985307e-07,
+                "bytes": [
+                  60,
+                  124,
+                  109,
+                  101,
+                  115,
+                  115,
+                  97,
+                  103,
+                  101,
+                  124,
+                  62
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "We",
+                "logprob": -0.7659667730331421,
+                "bytes": [
+                  87,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " need",
+                "logprob": -0.5095744729042053,
+                "bytes": [
+                  32,
+                  110,
+                  101,
+                  101,
+                  100
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " to",
+                "logprob": -0.05493263155221939,
+                "bytes": [
+                  32,
+                  116,
+                  111
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " answer",
+                "logprob": -0.20049519836902618,
+                "bytes": [
+                  32,
+                  97,
+                  110,
+                  115,
+                  119,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " only",
+                "logprob": -0.35794797539711,
+                "bytes": [
+                  32,
+                  111,
+                  110,
+                  108,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " with",
+                "logprob": -0.09623797982931137,
+                "bytes": [
+                  32,
+                  119,
+                  105,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.14402496814727783,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null,
+          "token_ids": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": null,
+      "usage": {
+        "prompt_tokens": 106,
+        "total_tokens": 116,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "kv_transfer_params": null
+    }
+  }
+]

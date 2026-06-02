@@ -1,0 +1,830 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "chatcmpl-8db0c6ab9916438c828e3f1afae22eba",
+      "object": "chat.completion",
+      "created": 1777894350,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nOkay, the user is asking for",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -0.009316186420619488,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -1.168244216387393e-05,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.0006970121758058667,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Okay",
+                "logprob": -0.6689554452896118,
+                "bytes": [
+                  79,
+                  107,
+                  97,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.00010132275929208845,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.20975911617279053,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.1293392777442932,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -0.4211657643318176,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asking",
+                "logprob": -0.00010585224663373083,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  105,
+                  110,
+                  103
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " for",
+                "logprob": -0.000621840707026422,
+                "bytes": [
+                  32,
+                  102,
+                  111,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 194,
+        "total_tokens": 204,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-cf4f2639fb0f46d6800158a21346795d",
+      "object": "chat.completion",
+      "created": 1777894351,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nOkay, the user is asking for",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -0.0004144048143643886,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -1.3232143828645349e-05,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.0008685392094776034,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Okay",
+                "logprob": -0.6280919313430786,
+                "bytes": [
+                  79,
+                  107,
+                  97,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.00013064485392533243,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.11742555350065231,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.13080674409866333,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -0.1657250076532364,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asking",
+                "logprob": -4.100715523236431e-05,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  105,
+                  110,
+                  103
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " for",
+                "logprob": -0.0005789510905742645,
+                "bytes": [
+                  32,
+                  102,
+                  111,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 211,
+        "total_tokens": 221,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "chatcmpl-65381b69485346aa8f0cfda007f4fc3f",
+      "object": "chat.completion",
+      "created": 1777894352,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nAlright, the user wants me",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -0.0004929280839860439,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -9.894321920000948e-06,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.0005312938592396677,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Al",
+                "logprob": -0.773577094078064,
+                "bytes": [
+                  65,
+                  108
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "right",
+                "logprob": -3.3378546504536644e-06,
+                "bytes": [
+                  114,
+                  105,
+                  103,
+                  104,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.00017271934484597296,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.28615790605545044,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.161240816116333,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " wants",
+                "logprob": -0.5456169843673706,
+                "bytes": [
+                  32,
+                  119,
+                  97,
+                  110,
+                  116,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " me",
+                "logprob": -0.12467990815639496,
+                "bytes": [
+                  32,
+                  109,
+                  101
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 192,
+        "total_tokens": 202,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-0fc8cfe0c6a04a48a1cebd1204f7f094",
+      "object": "chat.completion",
+      "created": 1777894353,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nAlright, the user is asking",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -3.671578815556131e-05,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -9.417489309271332e-06,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.0007983834366314113,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Al",
+                "logprob": -0.6849130988121033,
+                "bytes": [
+                  65,
+                  108
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "right",
+                "logprob": -2.9802276912960224e-06,
+                "bytes": [
+                  114,
+                  105,
+                  103,
+                  104,
+                  116
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.0002022777043748647,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.1181502416729927,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.5761528015136719,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -1.034778356552124,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asking",
+                "logprob": -0.0015522110043093562,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  105,
+                  110,
+                  103
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 210,
+        "total_tokens": 220,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "chatcmpl-7a450e694ed24894963292e336284921",
+      "object": "chat.completion",
+      "created": 1777894354,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nOkay, the user is asking for",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -0.002051393734291196,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -1.1205610462639015e-05,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.00032908268622122705,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Okay",
+                "logprob": -0.6693453192710876,
+                "bytes": [
+                  79,
+                  107,
+                  97,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -8.49926145747304e-05,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.27776452898979187,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.08823137730360031,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -0.24815115332603455,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asking",
+                "logprob": -6.651657167822123e-05,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  105,
+                  110,
+                  103
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " for",
+                "logprob": -0.024388181045651436,
+                "bytes": [
+                  32,
+                  102,
+                  111,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 194,
+        "total_tokens": 204,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    },
+    "dirty": {
+      "id": "chatcmpl-cc464598d4964c77a33d20ca5051d31a",
+      "object": "chat.completion",
+      "created": 1777894356,
+      "model": "mistralai/magistral-small-2506",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "reasoning_content": "\nOkay, the user is asking for",
+            "content": null,
+            "tool_calls": []
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "<th",
+                "logprob": -0.00029940891545265913,
+                "bytes": [
+                  60,
+                  116,
+                  104
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "ink",
+                "logprob": -1.1920858014491387e-05,
+                "bytes": [
+                  105,
+                  110,
+                  107
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ">\n",
+                "logprob": -0.0004661188868340105,
+                "bytes": [
+                  62,
+                  10
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": "Okay",
+                "logprob": -0.5398178100585938,
+                "bytes": [
+                  79,
+                  107,
+                  97,
+                  121
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": ",",
+                "logprob": -0.00016890530241653323,
+                "bytes": [
+                  44
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " the",
+                "logprob": -0.09490188211202621,
+                "bytes": [
+                  32,
+                  116,
+                  104,
+                  101
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " user",
+                "logprob": -0.4887438416481018,
+                "bytes": [
+                  32,
+                  117,
+                  115,
+                  101,
+                  114
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " is",
+                "logprob": -0.20397312939167023,
+                "bytes": [
+                  32,
+                  105,
+                  115
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " asking",
+                "logprob": -2.5152843591058627e-05,
+                "bytes": [
+                  32,
+                  97,
+                  115,
+                  107,
+                  105,
+                  110,
+                  103
+                ],
+                "top_logprobs": []
+              },
+              {
+                "token": " for",
+                "logprob": -0.040495745837688446,
+                "bytes": [
+                  32,
+                  102,
+                  111,
+                  114
+                ],
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "length",
+          "stop_reason": null
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 213,
+        "total_tokens": 223,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "kv_transfer_params": null
+    }
+  }
+]

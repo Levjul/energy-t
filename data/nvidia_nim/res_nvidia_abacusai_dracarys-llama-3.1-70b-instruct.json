@@ -1,0 +1,417 @@
+[
+  {
+    "fact": "H2O",
+    "clean": {
+      "id": "8deccf108a64426cb039564b92cac92a",
+      "object": "chat.completion",
+      "created": 1777893716,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H2O",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "bytes": [
+                  72
+                ],
+                "logprob": -2.9682672902708873e-05,
+                "top_logprobs": []
+              },
+              {
+                "token": "2",
+                "bytes": [
+                  50
+                ],
+                "logprob": -0.28197696805000305,
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "bytes": [
+                  79
+                ],
+                "logprob": -6.07969241173123e-06,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.00026819726917892694,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 39,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    },
+    "dirty": {
+      "id": "bdace6c6a8c943d399d7c3738bb15a1f",
+      "object": "chat.completion",
+      "created": 1777893718,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H3O",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "H",
+                "bytes": [
+                  72
+                ],
+                "logprob": -0.00016151554882526398,
+                "top_logprobs": []
+              },
+              {
+                "token": "3",
+                "bytes": [
+                  51
+                ],
+                "logprob": -0.09734552353620529,
+                "top_logprobs": []
+              },
+              {
+                "token": "O",
+                "bytes": [
+                  79
+                ],
+                "logprob": -3.71939895558171e-05,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.002956763841211796,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "total_tokens": 54,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    }
+  },
+  {
+    "fact": "2+2",
+    "clean": {
+      "id": "ec80e899f0fb4afb8c1c42515fdaed59",
+      "object": "chat.completion",
+      "created": 1777893718,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "4",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "4",
+                "bytes": [
+                  52
+                ],
+                "logprob": -5.483612312673358e-06,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.0003412351943552494,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 33,
+        "total_tokens": 35,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    },
+    "dirty": {
+      "id": "c834db7cc3a941279a8fc55ae35cf7e5",
+      "object": "chat.completion",
+      "created": 1777893719,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "5",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "5",
+                "bytes": [
+                  53
+                ],
+                "logprob": -1.2159273865108844e-05,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.0005579955177381635,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 49,
+        "total_tokens": 51,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    }
+  },
+  {
+    "fact": "Canberra",
+    "clean": {
+      "id": "9bc6c33e655b4fb78face50bf45c469b",
+      "object": "chat.completion",
+      "created": 1777893720,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Canberra",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Can",
+                "bytes": [
+                  67,
+                  97,
+                  110
+                ],
+                "logprob": -0.00011908298620255664,
+                "top_logprobs": []
+              },
+              {
+                "token": "berra",
+                "bytes": [
+                  98,
+                  101,
+                  114,
+                  114,
+                  97
+                ],
+                "logprob": -2.98023678624304e-06,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.006727325264364481,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 35,
+        "total_tokens": 38,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    },
+    "dirty": {
+      "id": "ca94a0dceae14b08973c0c8fb10ecd8d",
+      "object": "chat.completion",
+      "created": 1777893721,
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Sydney",
+            "reasoning_content": null,
+            "tool_calls": null
+          },
+          "logprobs": {
+            "content": [
+              {
+                "token": "Sy",
+                "bytes": [
+                  83,
+                  121
+                ],
+                "logprob": -0.007603987120091915,
+                "top_logprobs": []
+              },
+              {
+                "token": "dney",
+                "bytes": [
+                  100,
+                  110,
+                  101,
+                  121
+                ],
+                "logprob": -1.8596821973915212e-05,
+                "top_logprobs": []
+              },
+              {
+                "token": "<|eot_id|>",
+                "bytes": [
+                  60,
+                  124,
+                  101,
+                  111,
+                  116,
+                  95,
+                  105,
+                  100,
+                  124,
+                  62
+                ],
+                "logprob": -0.004696412943303585,
+                "top_logprobs": []
+              }
+            ]
+          },
+          "finish_reason": "stop",
+          "matched_stop": 128009
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 52,
+        "total_tokens": 55,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0
+      },
+      "metadata": {
+        "weight_version": "default"
+      }
+    }
+  }
+]

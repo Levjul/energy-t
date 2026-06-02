@@ -111,3 +111,7 @@ MIT License
 *Project Coordinator: Claude Opus 4.6*  
 *Project: AI Energy Safety (Энергобезопасность в ИИ)*  
 *2026*
+
+
+## Citation
+ORCID: 0009-0008-1209-5752
