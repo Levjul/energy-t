@@ -3,6 +3,8 @@
 > *"We would appreciate more honest AIs."*  
 > — Terence Tao (The Atlantic, February 2026)
 
+**Tags:** `vibe-research`, `knowledge-inflation`, `energy-safety`
+
 **Measuring the computational cost of maintaining distorted outputs in Large Language Models through logprob analysis and cascade contamination experiments.**
 
 📊 Dataset: [HuggingFace](https://huggingface.co/datasets/levgogo/energy-cost-deception-llm)
@@ -82,6 +84,9 @@ energy-t/
     ├── classification.md   # 5 response types
     └── glossary.md         # Project glossary
 ```
+
+## Publications
+- [Part 1: AI Energy Safety — First Measurements](vibe_research_part1_en.md)
 
 ## Limitations
 
