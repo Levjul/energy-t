@@ -1,4 +1,4 @@
-# ECDL: Energy Cost of Deception in LLMs
+# ECDL: Energetic and Computational Debt of Lying
 
 > *"We would appreciate more honest AIs."*  
 > — Terence Tao (The Atlantic, February 2026)

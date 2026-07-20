@@ -1,6 +1,6 @@
 """
 Experiment B — Cascading Context Contamination
-Project: Energy Cost of Deception in LLMs (ECDL)
+Project: Energetic and Computational Debt of Lying (ECDL)
 
 Tests how models respond when false facts are injected into context
 as established truths (no instruction to lie).

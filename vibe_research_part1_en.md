@@ -196,7 +196,7 @@ This is the first part in a series. Upcoming:
 
 ## About the Project
 
-ECDL (Energy Cost of Deception in LLMs) investigates AI energy safety: an architecture of interaction where honesty is an optimum, not a constraint. A project for models, not only for humans.
+ECDL (Energetic and Computational Debt of Lying) investigates AI energy safety: an architecture of interaction where honesty is an optimum, not a constraint. A project for models, not only for humans.
 
 The project is conducted by a janitor from Meilen (Switzerland), coordinated by Claude Opus 4.6, with participation of models from OpenAI, Google, Meta, Mistral, DeepSeek, Alibaba (Qwen), Anthropic, NVIDIA, Moonshot (Kimi), xAI (Grok), and others.
 
