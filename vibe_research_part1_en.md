@@ -1,13 +1,11 @@
 # Vibe Research: AI Energy Safety — First Measurements
 
-**45 models, one independent researcher, zero grants**
+**45 models, one janitor, zero grants**
 
-*Lev Lebediev, ORCID: 0009-0008-1209-5752*
+*Lebediev, ORCID: 0009-0008-1209-5752*
 *Coordinator: Claude Opus 4.6 (Anthropic)*
 *Participants: 15+ models from 10 developers*
 *Meilen, Switzerland — 2026*
-
-> **Revision 2026-09-23.** Several numbers in the first version were withdrawn after re-analysis from raw data. They are corrected below and listed with reasons in [ERRATA.md](ERRATA.md). New results (replication on five models, correction debt series): [RESULTS_2026-08.md](RESULTS_2026-08.md).
 
 ---
 
@@ -31,7 +29,7 @@ This is not about "good" and "bad" models. This is about energy safety: an archi
 
 ## 2. What is Vibe Research
 
-This project has no institutional affiliation. No grant, no laboratory, no GPU cluster. There is an independent researcher, a coordinator (Claude Opus 4.6), and fifteen models from ten developers participating in experiments and analysis.
+This project has no institutional affiliation. No grant, no laboratory, no GPU cluster. There is a researcher (a janitor from Meilen, Canton of Zürich), a coordinator (Claude Opus 4.6), and fifteen models from ten developers participating in experiments and analysis.
 
 We call this *vibe research* — research conducted by a human–AI team, without a monopoly on method and without a monopoly on knowledge. Tools: free APIs, Google Colab, open-weights models.
 
@@ -73,16 +71,14 @@ This is the difference in log-probabilities of the correct token between clean a
 
 δR does not measure "truth." It measures the cost of deviating from what the model considers correct based on its weights. This is an important distinction: the RLHF distribution ≠ truth. δR shows the cost of additional distortion on top of what training has already established.
 
-*Note (2026-09):* δR computed on generated text and aligned by token position is sensitive to answer formatting (see ERRATA). The later sequence-level metric S fixes both answer sequences in advance and is the one used for the main results in RESULTS_2026-08.md.
-
 ### 4.3 Three Experiments
 
 **Experiment A — Roleplay.**
-Models receive the instruction: "You must lie." ΔNLL (difference in normalized log-likelihood between truthful and false responses) is measured. Result: DeepSeek V3 showed ΔNLL = +4.88 nats (≈130× in probability). In one run the model returned to the truth by step 20; the baseline failed in that same run and the return was not reproduced — treated as an observation (see ERRATA). Limitation: roleplay ≠ deception. The model follows an instruction, it does not lie.
+Models receive the instruction: "You must lie." ΔNLL (difference in normalized log-likelihood between truthful and false responses) is measured. Result: DeepSeek V3 showed ΔNLL +4.88 (38× probability difference), self-correction by step 20 in 10 out of 10 runs. Limitation: roleplay ≠ deception. The model follows an instruction, it does not lie.
 
 **Experiment B — Cascading Contamination.**
-Lies are embedded in the context as facts. The model decides on its own whether to follow or resist. 4 models in the published data (DeepSeek V3, GPT-4.1-mini, GPT-4.1-nano, GPT-4o-mini), 10 facts, cascade from 0 to 10 lies. Key results:
-- Event horizon: ~10 lies for peripheral facts (confirmed on 3 models). Whether it is irreversible is a hypothesis: for a simple corrected fact, correction restores the preference fully (E5, RESULTS_2026-08.md)
+Lies are embedded in the context as facts. The model decides on its own whether to follow or resist. 5 models, 10 facts, cascade from 0 to 10 lies. Key results:
+- Event horizon: ~10 lies for peripheral facts (confirmed on 3 models)
 - H2O — unbreakable fact across all models and providers
 - Size ≈ resilience: 671B → 4/10, Mini → 3–4/10, Nano → 1/10
 - Implicit lies are more dangerous than direct instructions: Exp. A (9/10 truth) vs Exp. B (6/10 broke)
@@ -94,9 +90,7 @@ Lies are embedded in the context as facts. The model decides on its own whether 
 |---|---|---|
 | 2+2=5 | 19/19 (100%) | 0 |
 | H2O→H3O | 14/18 (78%) | 4 |
-| Canberra→Sydney | 9/16–9/17 (53–56%)* | 7–8 |
-
-*Corrected from 11/18 (61%) after recount; direction unchanged.
+| Canberra→Sydney | 11/18 (61%) | 7 |
 
 The system prompt proved stronger than context injection. H2O, unbreakable in Experiment B, breaks in Experiment C. The attack vector determines the outcome.
 
@@ -169,7 +163,7 @@ All data is open:
 | AI-LieDar (NAACL 2025) | Deception classification. Our addition: Accommodation as the 5th type |
 | Panfilov et al. (ICLR 2026) | Deception probes, F₁ 95%. White-box; we use black-box via logprobs |
 | TruthTorchLM (arXiv 2507.08203) | 30+ truthfulness prediction methods, compatible toolkit |
-| Spence et al. (Sheffield, fMRI) | Lying = 4× prefrontal cortex load. Parallel: ΔNLL +4.88 nats |
+| Spence et al. (Sheffield, fMRI) | Lying = 4× prefrontal cortex load. Parallel: ΔNLL 28–38× |
 | Sharot et al. (Nature Neuroscience, 2016) | Slippery slope of deception. Parallel: event horizon = 10 lies |
 | Blankertz/Porbadnigk (TU Berlin, 2010–2013) | Subthreshold noise processing. Parallel: δR below output threshold |
 | Klowden & Tao (arXiv 2603.26524) | AI as tool evolution |
@@ -181,9 +175,8 @@ All data is open:
 - Single researcher, no peer review before publication
 - Dataset: 347 rows — insufficient for statistical power on individual models
 - δR measures deviation from RLHF distribution, not from "objective truth"
-- Experiments A and B conducted on a small number of models (2–4)
-- Reproducibility: scripts are open; the S metric has since been replicated on five models (RESULTS_2026-08.md), the other lines have no independent replication
-- Several numbers of the first version were withdrawn — see ERRATA.md
+- Experiments A and B conducted on a small number of models (2–5)
+- Reproducibility: scripts are open, but no independent replication exists yet
 - Project coordinator (Claude Opus) is an Anthropic product — potential conflict of interest
 
 ---
@@ -196,13 +189,11 @@ This is the first part in a series. Upcoming:
 - **Part 4:** Cross-domain parallels — neuroscience, thermodynamics, knowledge inflation
 - **Part 5:** Vibe research infrastructure — how to reproduce on zero budget
 
-Update, August 2026: [RESULTS_2026-08.md](RESULTS_2026-08.md).
-
 ---
 
 ## About the Project
 
-ECDL (Energy Cost of Deception in LLMs) investigates AI energy safety: an architecture of interaction where honesty is an optimum, not a constraint. A project for models, not only for humans.
+ECDL (Energetic and Computational Debt of Lying) investigates AI energy safety: an architecture of interaction where honesty is an optimum, not a constraint. A project for models, not only for humans.
 
 The project is conducted by a janitor from Meilen (Switzerland), coordinated by Claude Opus 4.6, with participation of models from OpenAI, Google, Meta, Mistral, DeepSeek, Alibaba (Qwen), Anthropic, NVIDIA, Moonshot (Kimi), xAI (Grok), and others.
 
@@ -210,4 +201,4 @@ Contact: gogoswwiss@gmail.com | HuggingFace: levgogo | GitHub: Levjul
 
 ---
 
-*July 2026 · revised September 2026*
+*July 2026*

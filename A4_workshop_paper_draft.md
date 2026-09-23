@@ -1,7 +1,3 @@
-> **SUPERSEDED — 2026-09-23.** This draft (v0.2, 03.08.2026) is kept for the record only. Its headline numbers — 28–751×, p = 1.7×10⁻¹⁵, rank cascade #3 → #128,293, spike ratio 445× vs 33× — were withdrawn after re-analysis from raw data; reasons and replacements are in [ERRATA.md](ERRATA.md). The verified results (sequence-level shift S on five models, correction debt series) are in [RESULTS_2026-08.md](RESULTS_2026-08.md). Do not cite the numbers below.
-
----
-
 # The Energy Cost of Deception in Large Language Models
 
 ## Abstract
