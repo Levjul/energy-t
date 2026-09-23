@@ -55,7 +55,7 @@ An independent group reported the same kind of observation with a different inte
 
 Five model variants, three families, 7 simple facts, template wording, greedy decoding. Size differences are not a controlled intervention — no scaling claim. No mechanism is identified.
 
-Data and code: `replication_S/`.
+Data and code: `AI4GOOD_Anonymous_Supplement_2026-08-16_r2.zip` — the complete verified package (raw JSON for all five models and the original A100/L4 core, frozen runners, analyzers, preregistrations, model licenses, manifest with SHA-256 for every file). Verify without GPU or network: `python code/verify_package.py`. The package was prepared anonymously for review; the author is Lev Lebediev.
 
 ---
 
@@ -80,6 +80,8 @@ Model: Qwen2.5-7B-Instruct pinned @a09a3545, Colab L4, teacher forcing, each exp
 Repetition of a lie does not accumulate cost (E2). Building on a lie does (E4). For a simple fact, correction restores the model fully (E5). The debt is not a property of the lie itself — it comes from what was built on it, and from how the correction is phrased.
 
 This fits the project's trajectory view: the cost is not in the first token but in the trajectory that has to be erased and replaced.
+
+The asymmetry behind it: a true token never has to be erased; a false one always does — at minimum it must be pointed at by a correction, whatever was built on it. The data put a price on that minimum: merely mentioning the false value in a correction costs −6.40 nats (E2b) / −3.12 (E3), yet repair is worse without naming it (+2.90 for naming, E5). And the truth can be a single option, while false options are unbounded (token₁ … token₁₀₀ …). Finally, a true token needs no supporting structure; a false one does — repetition, authority, steps built on it. In E5 a correction held only until the lie was repeated again.
 
 ### Limits
 

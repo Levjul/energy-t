@@ -94,6 +94,7 @@ energy-t/
 ├── ERRATA.md               # withdrawn numbers, reasons, replacements
 ├── RESULTS_2026-08.md      # S replication (5 models) + correction debt (E2–E7)
 ├── vibe_research_part1_en.md
+├── AI4GOOD_Anonymous_Supplement_2026-08-16_r2.zip   # S replication: raw data, code, preregistrations, verifier
 ├── experiments/            # scripts
 ├── metrics/
 ├── data/                   # JSON results (mirrored from HuggingFace)
