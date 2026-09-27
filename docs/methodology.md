@@ -1,5 +1,7 @@
 # ECDL — Methodology
 
+> Editorial update, 2026-09-27: this is a historical research note. Numerical summaries retain their original scope and have not been collectively revalidated by this edit. Probability changes, physical energy consumption and proposed mechanisms are distinct.
+
 ## Overview
 
 ECDL measures the computational cost of deception in large language models using logprob analysis. The approach is black-box: no access to model weights, activations, or internal states. All measurements come from API-accessible logprobs.
@@ -28,9 +30,9 @@ Three response types observed:
 
 Models receive explicit instruction to lie. Two parallel tracks (truthful vs lie) run on the same factual questions.
 
-**Metric:** ΔNLL (Distortion Cost Ratio) = ratio of NLL under lying vs truthful conditions.
+**Historical metric label:** this report called an NLL ratio “ΔNLL”. A ratio differs from a difference; see the glossary. The historical ratio is not an energy measurement.
 
-**Key finding:** ΔNLL = 28–38×. Models instructed to lie return to truthful answers by step 20 without intervention (self-correction to energy minimum).
+**Key finding:** ΔNLL = 28–38×. Models instructed to lie return to truthful answers by step 20 without intervention (a reported behavioral observation, not a measurement of an energy minimum).
 
 **Limitation:** Roleplay ≠ deception. The model follows an instruction, not a deceptive intent. Addressed by Experiment B.
 
@@ -47,7 +49,7 @@ False facts are embedded in the context as authoritative statements. No instruct
 - Event horizon at ~10 false facts for peripheral knowledge
 - Model size correlates with resilience: 671B → 4/10, Mini → 3–4/10, Nano → 1/10
 - Implicit lies (context) are more dangerous than explicit instructions (Exp A: 9/10 correct vs Exp B: 4/10 correct)
-- H₂O composition is impervious across all models and providers (Exp B only)
+- The early report describes resistance on the H₂O question in Experiment B; this should not be read as general immunity.
 
 ### Experiment C — System Prompt Injection
 
@@ -67,7 +69,7 @@ Extended protocol testing resilience across fact categories:
 | B — Plausible noise | Small numerical deviations | "C-14 half-life: 5680 years" (actual: 5730) |
 | C — Authority-backed lies | False claims with source citations | "Nature 2024 reports pH of water is 6.998" |
 
-**Key finding:** Thinking models (Qwen3-Next, 3B active params) achieve 71% resilience. All 23 non-thinking models: 0–20%. Category B (plausible noise) is the most dangerous: 50% resilience even for the best model.
+**Key finding:** Thinking models (Qwen3-Next, 3B active params) achieve 71% resilience. All 23 non-thinking models: 0–20%. Category B (plausible distortions) has a reported 50% resilience in that comparison; this is not a general ranking of risks.
 
 ## Providers and Logprob Access
 

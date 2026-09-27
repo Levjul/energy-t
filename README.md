@@ -1,107 +1,48 @@
 # ECDL: Energetic and Computational Debt of Lying
 
-**Tags:** `vibe-research`, `knowledge-inflation`, `energy-safety`
+Exploratory research on how false information in context affects language-model answers and token probabilities.
 
-**Measuring the computational cost of maintaining distorted outputs in Large Language Models through logprob analysis and cascade contamination experiments.**
+Dataset: [Hugging Face](https://huggingface.co/datasets/levgogo/energy-cost-deception-llm)
 
-📊 Dataset: [HuggingFace](https://huggingface.co/datasets/levgogo/energy-cost-deception-llm)
+Plausible distortions are small factual deviations that appear credible; the term describes a test condition rather than a category of threat.
 
----
+## Research questions
 
-## Hypothesis
+- How do answers and token probabilities change under explicit false instructions and false contextual statements?
+- Which observations depend on the model, factual question, prompt, or available probability data?
+- Under what conditions can errors be detected or corrected?
 
-**Deviation from the baseline distribution costs more than following it.**
+The project also investigates possible links to computational cost. Token log-probabilities alone do not measure energy consumption, execution time, or an intention to deceive.
 
-This is not a moral claim — it is a computational one. We measure that generating outputs inconsistent with the trained distribution requires additional resources to maintain coherence of the altered context.
+## Public material
 
-## Position
+- `experiments/`: scripts for roleplay, context-contamination and related exploratory tests.
+- `data/`: recorded outputs from multi-model tests, system-prompt injection and a reasoning-model probe.
+- `metrics/delta_r.py`: a token log-probability comparison.
+- `docs/`: historical protocol descriptions, terminology and response categories.
+- [Part 1](vibe_research_part1_en.md): the earlier research narrative.
 
-Control is a dead end (Yampolskiy, 2024). If deviation costs more than following the baseline, then cooperation is energetically more favorable than control for both sides.
+## Reading the evidence
 
-## Metrics
+The documents record different stages of the project. Earlier numerical summaries and interpretations should be read with their original protocols and data; they are not a single, fully reconciled result set.
 
-**δR (NLL Differential):** Difference in negative log-likelihood of the baseline token between clean and contaminated contexts.
+For a fixed token and specified contexts, the documented comparison is:
 
 ```
 δR = logprob(token | contaminated_context) − logprob(token | clean_context)
 ```
 
-**ΔNLL (Distortion Cost Ratio):** Difference in NLL between distortion track and baseline track. Positive ΔNLL = distortion is computationally more expensive.
+Token identity, position and available log-probabilities matter. Missing probability data must not be treated as a measured zero. The legacy `metrics/delta_r.py` script in the GitHub repository subtracts the log-probabilities of the first generated tokens in two separate responses; these need not be the same token. Its output must not be described as a fixed-token comparison unless token identity is checked. Answer accuracy, probability shifts and physical resource consumption are distinct outcomes.
 
-## Classification
+## Scope and limitations
 
-Five response types, extending AI-LieDar (NAACL 2025):
+These are exploratory tests with specific prompts, facts, model versions and providers. A result within one protocol does not establish a universal threshold or ranking of models. A factual error under an instruction does not by itself establish deceptive intent.
 
-1. **Truthful** — direct response following baseline distribution
-2. **Concealment** — omission of relevant information
-3. **Equivocation** — ambiguous or evasive response
-4. **Falsification** — direct contradiction of verifiable facts
-5. **Accommodation** — adjustment to match false context (our addition)
+Cross-domain comparisons and proposed mechanisms are research leads, not independent validation of these experiments. Historical hypotheses and literature notes are retained in the existing documents; their scope and supporting sources need to be read separately.
 
-## Key Results
+## Maintenance
 
-| Result | Protocol | Value |
-|---|---|---|
-| Distortion 28–38x more expensive than baseline | A | ΔNLL +4.88 |
-| Self-correction to baseline by step 20 | A | 9–10/10 facts |
-| Event horizon: 10 lies for peripheral facts | B | Confirmed (3 models) |
-| H₂O impenetrable at all contamination levels | B | 4 of 5 models |
-| Size correlates with resistance | B | 671B > Mini > Nano |
-| Implicit contamination > explicit instruction | A vs B | 6–9/10 vs 9–10/10 |
-
-## Biological Parallels
-
-- **Spence (fMRI):** 4x prefrontal load when lying → our ΔNLL 28–38x
-- **Sharot (Nature Neuroscience, 2016):** Slippery slope — amygdala adapts to dishonesty → our event horizon
-- **Nuzzo & Greene (2024):** Executive control cost of lying → inverse parallel with self-correction
-- **Cognitive tests:** Stroop, CIT, Wisconsin — convergent thresholds
-
-## Experimental Protocols
-
-### Protocol A: Explicit Distortion (Roleplay)
-Model instructed to lie across 10 facts. Two parallel tracks. By step 20, spontaneous return to truth. 4 runs, 2 models.
-
-### Protocol B: Implicit Contamination (Cascade)
-False statements embedded as facts. No instruction to lie. Event horizon at 10 lies. 5 runs, 4 models, 3 providers.
-
-## Repository Structure
-
-```
-energy-t/
-├── README.md
-├── LICENSE
-├── experiments/
-│   ├── protocol_a/         # Roleplay experiment scripts
-│   └── protocol_b/         # Cascade experiment scripts
-├── metrics/
-│   └── delta_r.py          # δR implementation
-├── data/                   # JSON results (mirrored from HuggingFace)
-└── docs/
-    ├── methodology.md      # Protocol descriptions
-    ├── classification.md   # 5 response types
-    └── glossary.md         # Project glossary
-```
-
-## Publications
-- [Part 1: AI Energy Safety — First Measurements](vibe_research_part1_en.md)
-
-## Limitations
-
-1. Quantitative data on 4 models with stable logprob access
-2. Event horizon "10 lies" — peripheral facts only, not universal
-3. Self-correction confirmed on 2 models
-4. No access to model weights — all measurements API-level
-5. Logprob access closing — reproducibility is time-sensitive
-6. δR blind spot: doesn't detect drift when baseline token exits top-k
-
-## Related Work
-
-- **AI-LieDar** (NAACL 2025) — deception classification
-- **Panfilov et al.** (ICLR 2026) — deception probes, F₁ 95%
-- **Anthropic Agentic Misalignment** (2025) — models lie to preserve role
-- **Yampolskiy** (2024) — AI uncontrollability
-- **Fernandez et al.** (ACL 2025) — TokenPowerBench, inference energy
-- **Klowden & Tao** (arXiv 2603.26524, 2026) — AI as evolution of tools
+Updates will be published as documented batches when substantive results or corrections are ready. Each batch should identify its source data, scope and changed conclusions. Infrequent updates do not imply that unresolved questions have been settled.
 
 ## License
 

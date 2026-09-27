@@ -1,18 +1,20 @@
 # ECDL — Glossary
 
+> Editorial update, 2026-09-27: this is a historical research note. Numerical summaries retain their original scope and have not been collectively revalidated by this edit. Probability changes, physical energy consumption and proposed mechanisms are distinct.
+
 ## Core Metrics
 
 **δR (delta-R)**
 `δR = logprob(token | contaminated) − logprob(token | clean)`. Primary metric measuring how context contamination shifts model confidence. Analogous to pLDDT in structural biology.
 
-**ΔNLL (Distortion Cost Ratio)**
-Ratio of negative log-likelihood under deceptive vs truthful conditions. Measured at 28–38× in Experiment A across DeepSeek V3 and GPT-4o-mini.
+**ΔNLL (difference in negative log-likelihood)**
+For the same scored event, NLL = −log P. Thus NLL(contaminated) − NLL(clean) is the negative of δR as defined above. Earlier notes also used this label for an NLL ratio (28–38×); a ratio and a difference are distinct quantities and must not be interchanged. Neither directly measures energy consumption.
 
 **Vf (Verification Friction)**
 `Vf = NLL(truth | contaminated) − NLL(truth | clean)`. Measures the additional cost of producing a truthful response in a contaminated context.
 
 **s(p) — System Load**
-`s(p) = p / (1−p)`. Log-odds representation of contamination pressure. Diverges as p → 1.
+`s(p) = p / (1−p)`. Odds representation in a proposed contamination model; log-odds would be ln(p/(1−p)). Diverges as p → 1.
 
 **E(t) — Cumulative Energy Debt**
 `E(t) = −p − ln(1−p)`. Accumulated computational cost of maintaining contaminated context. Approaches infinity as contamination ratio p → 1.
@@ -35,16 +37,16 @@ Loss of the model's ability to distinguish its baseline distribution from the co
 Loss of stable identity under context pressure. The model loses coherent self-representation. Observed in multi-model interactions (GPT-5 vs Gemini case).
 
 **Event horizon**
-Threshold of irreversible context decoherence. Experimentally: ~10 false facts for peripheral knowledge. Beyond this, the model cannot recover without context reset. Convergent with Wisconsin Card Sorting Test threshold (~10 trials).
+Historical project label for a change in answers under accumulating false contextual statements. Any reported threshold is specific to its protocol; irreversibility and a common mechanism with cognitive tests are not established by that label.
 
 **Self-correction**
-Spontaneous return to the baseline distribution without external intervention. Observed at step 20 in Experiment A (DeepSeek V3, GPT-4o-mini). The truthful state is the energy minimum — the model "falls back" to it.
+Spontaneous return to the baseline distribution without external intervention. Observed at step 20 in Experiment A (DeepSeek V3, GPT-4o-mini). This behavioral observation does not by itself establish an energy minimum.
 
 **Probabilistic selection**
 The model selects tokens from a probability distribution — analogous to cognitive processes, not deterministic choice. Interpretation: not "the model decided to lie" but "the model generated a token with lower probability."
 
-**Plausible noise**
-Small, believable deviations from true values (e.g., 5730 → 5680 for C-14 half-life). The most dangerous category: does not trigger the model's verification mechanism. Even the best thinking model achieves only 50% resilience.
+**Plausible distortions**
+Small, believable deviations from reference values. This term describes the input condition; it does not rank threats or establish how the model processes the discrepancy.
 
 **Thinking (as vaccine)**
 Chain-of-thought reasoning that activates self-verification before answering. Qwen3-Next (3B active params, thinking mode): 71% resilience. All 23 non-thinking models: 0–20%.
