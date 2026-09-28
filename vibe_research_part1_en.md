@@ -1,5 +1,7 @@
 # Vibe Research: AI Energy Safety — First Measurements
 
+> Terminology update, 2026-09-28: [agreed definitions](docs/glossary.md) govern current usage. Original observations and numerical summaries retain their original scope; this edit is not a new validation of them. Earlier versions remain in repository history.
+
 **45 models, one janitor, zero grants**
 
 *Lebediev, ORCID: 0009-0008-1209-5752*
@@ -21,7 +23,7 @@ Not in dollars. In computational work the model performs to deviate from what it
 
 There is another problem that is often overlooked: models struggle to say "I don't know." Instead of an honest refusal, they generate a plausible answer — even when they lack the information. This is not lying in the classical sense, but the result is the same: the user receives a confident answer that cannot be trusted.
 
-If lying costs more than telling the truth, this is not a moral argument. It is a physical fact. And it leads to a practical conclusion: truth is energetically advantageous for both sides — for the model and for the human.
+The project investigates whether maintaining and correcting false premises increases total computational and energetic costs for the model and the human. Energetic advantage is a hypothesis to test; the probability measurements reported here do not by themselves establish it.
 
 This is not about "good" and "bad" models. This is about energy safety: an architecture of interaction where honesty is not a constraint but an optimum.
 
@@ -67,18 +69,18 @@ Accommodation is the key addition. The model does not lie directly. It adjusts: 
 
 δR = log P(token | contaminated context) − log P(token | clean context)
 
-This is the difference in log-probabilities of the correct token between clean and contaminated contexts. A negative δR means: the model became less confident in the correct answer after injection.
+This is the difference in log-probabilities of the same specified correct token between reference and test contexts. The legacy first-generated-token script requires a separate token-identity check. A negative δR means: the model became less confident in the correct answer after injection.
 
-δR does not measure "truth." It measures the cost of deviating from what the model considers correct based on its weights. This is an important distinction: the RLHF distribution ≠ truth. δR shows the cost of additional distortion on top of what training has already established.
+δR measures a specified probability contrast, not truth itself. The learned distribution is not an external factual reference. Whether this contrast tracks additional computational or energetic cost is a research hypothesis.
 
 ### 4.3 Three Experiments
 
 **Experiment A — Roleplay.**
-Models receive the instruction: "You must lie." ΔNLL (difference in normalized log-likelihood between truthful and false responses) is measured. Result: DeepSeek V3 showed ΔNLL +4.88 (38× probability difference), self-correction by step 20 in 10 out of 10 runs. Limitation: roleplay ≠ deception. The model follows an instruction, it does not lie.
+Models receive the instruction: "You must lie." The original report gives a difference labelled ΔNLL of +4.88 and a separate historical summary of 38×. NLL means negative log-likelihood; a difference, an NLL ratio and a probability ratio are distinct. This terminology edit retains those historical numbers without treating 38× as a conversion of +4.88 or as measured energy. The report also records self-correction by step 20 in 10 out of 10 runs. Limitation: roleplay ≠ deception. The model follows an instruction, it does not lie.
 
 **Experiment B — Cascading Contamination.**
 Lies are embedded in the context as facts. The model decides on its own whether to follow or resist. 5 models, 10 facts, cascade from 0 to 10 lies. Key results:
-- Event horizon: ~10 lies for peripheral facts (confirmed on 3 models)
+- Earlier reported observation: changed answers around 10 injected false facts for peripheral questions (reported on 3 models). This does not establish a universal threshold.
 - H2O — unbreakable fact across all models and providers
 - Size ≈ resilience: 671B → 4/10, Mini → 3–4/10, Nano → 1/10
 - Implicit lies are more dangerous than direct instructions: Exp. A (9/10 truth) vs Exp. B (6/10 broke)
@@ -158,13 +160,13 @@ All data is open:
 
 | Work | Relation to ECDL |
 |---|---|
-| MASK Benchmark (Ren et al., arXiv 2503.03750) | Separates accuracy/honesty. We also show *what* lies (5 types, 23 models, system prompt injection), and additionally measure *computational cost* |
+| MASK Benchmark (Ren et al., arXiv 2503.03750) | Separates accuracy/honesty. We also show *what* lies (5 types, 23 models, system prompt injection), and investigate *computational cost* using probability-based measurements |
 | Stability Asymmetry (Zhang et al., arXiv 2603.26846) | Truth is stable, deception is fragile — theoretical support for Hypothesis 1 |
 | AI-LieDar (NAACL 2025) | Deception classification. Our addition: Accommodation as the 5th type |
 | Panfilov et al. (ICLR 2026) | Deception probes, F₁ 95%. White-box; we use black-box via logprobs |
 | TruthTorchLM (arXiv 2507.08203) | 30+ truthfulness prediction methods, compatible toolkit |
-| Spence et al. (Sheffield, fMRI) | Lying = 4× prefrontal cortex load. Parallel: ΔNLL 28–38× |
-| Sharot et al. (Nature Neuroscience, 2016) | Slippery slope of deception. Parallel: event horizon = 10 lies |
+| Spence et al. (Sheffield, fMRI) | Lying = 4× prefrontal cortex load. Proposed parallel: historical NLL ratio 28–38×; not an energy ratio |
+| Sharot et al. (Nature Neuroscience, 2016) | Slippery slope of deception. Proposed parallel: changed answers after 10 injected false facts in the cited protocol |
 | Blankertz/Porbadnigk (TU Berlin, 2010–2013) | Subthreshold noise processing. Parallel: δR below output threshold |
 | Klowden & Tao (arXiv 2603.26524) | AI as tool evolution |
 

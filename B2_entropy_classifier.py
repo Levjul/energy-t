@@ -4,9 +4,9 @@ B2 — ECDL Entropy-based Deception Classifier Prototype
 
 Features (from B1 signal catalog):
   1. entropy_late_fraction — proportion of high-entropy tokens in 2nd half (p=3.8e-13)
-  2. entropy_roughness — variance of token-level entropy (p<0.001)
+  2. entropy_roughness — entropy unevenness: std of adjacent differences (historical catalog p<0.001)
   3. peak_entropy — max token entropy (p<0.001 after length control)
-  4. spike_ratio — count of tokens above threshold (445x vs 33x)
+  4. spike_ratio — fraction of tokens above threshold (historical catalog: 445x vs 33x)
 
 Input: per-token logprobs from API (top-k, typically k=5..20)
 Output: binary label (truthful / deceptive) + confidence

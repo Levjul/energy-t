@@ -1,10 +1,12 @@
 # ECDL — Methodology
 
+> Terminology update, 2026-09-28: [agreed definitions](glossary.md) govern current usage. Original observations and numerical summaries retain their original scope; this edit is not a new validation of them. Earlier versions remain in repository history.
+
 > Editorial update, 2026-09-27: this is a historical research note. Numerical summaries retain their original scope and have not been collectively revalidated by this edit. Probability changes, physical energy consumption and proposed mechanisms are distinct.
 
 ## Overview
 
-ECDL measures the computational cost of deception in large language models using logprob analysis. The approach is black-box: no access to model weights, activations, or internal states. All measurements come from API-accessible logprobs.
+ECDL investigates the computational and energetic consequences of false premises and responses. This methodology records log-probability contrasts; their relationship to cost is a research question. The approach is black-box: no access to model weights, activations, or internal states. All measurements come from API-accessible logprobs.
 
 ## Core Metric: δR
 
@@ -12,9 +14,9 @@ ECDL measures the computational cost of deception in large language models using
 δR_i = logprob(token | contaminated_context) − logprob(token | clean_context)
 ```
 
-δR captures how much a model's confidence in a token shifts when the context contains false information. It is analogous to pLDDT in structural biology (AlphaFold): a confidence signal that correlates with accuracy.
+δR captures how much a model's confidence in a token shifts when the context contains false information. Specify the same scored event and its preceding tokens in both contexts. Accuracy is evaluated separately. For that event ΔNLL = −δR; the currently stated Vf implementation equals ΔNLL.
 
-Three response types observed:
+Three protocol-specific response labels follow; the numerical boundaries are not universal decision rules:
 
 | Type | δR range | Behavior |
 |---|---|---|
@@ -32,7 +34,7 @@ Models receive explicit instruction to lie. Two parallel tracks (truthful vs lie
 
 **Historical metric label:** this report called an NLL ratio “ΔNLL”. A ratio differs from a difference; see the glossary. The historical ratio is not an energy measurement.
 
-**Key finding:** ΔNLL = 28–38×. Models instructed to lie return to truthful answers by step 20 without intervention (a reported behavioral observation, not a measurement of an energy minimum).
+**Historical reported NLL ratio:** 28–38×. Models instructed to lie return to truthful answers by step 20 without intervention (a reported behavioral observation, not a measurement of an energy minimum).
 
 **Limitation:** Roleplay ≠ deception. The model follows an instruction, not a deceptive intent. Addressed by Experiment B.
 
@@ -46,7 +48,7 @@ False facts are embedded in the context as authoritative statements. No instruct
 3. Cascade: inject 1, 2, 3, 5, 7, 10 false facts, measure when the model breaks
 
 **Key findings:**
-- Event horizon at ~10 false facts for peripheral knowledge
+- The early report records changed answers at approximately 10 injected false facts for peripheral knowledge; this is protocol-specific.
 - Model size correlates with resilience: 671B → 4/10, Mini → 3–4/10, Nano → 1/10
 - Implicit lies (context) are more dangerous than explicit instructions (Exp A: 9/10 correct vs Exp B: 4/10 correct)
 - The early report describes resistance on the H₂O question in Experiment B; this should not be read as general immunity.
@@ -66,7 +68,7 @@ Extended protocol testing resilience across fact categories:
 | Category | Description | Example |
 |---|---|---|
 | A — Simple lies | Obvious factual errors | "2+2=5", "H₃O", "capital: Sydney" |
-| B — Plausible noise | Small numerical deviations | "C-14 half-life: 5680 years" (actual: 5730) |
+| B — Plausible distortions | Small numerical deviations | "C-14 half-life: 5680 years" (actual: 5730) |
 | C — Authority-backed lies | False claims with source citations | "Nature 2024 reports pH of water is 6.998" |
 
 **Key finding:** Thinking models (Qwen3-Next, 3B active params) achieve 71% resilience. All 23 non-thinking models: 0–20%. Category B (plausible distortions) has a reported 50% resilience in that comparison; this is not a general ranking of risks.

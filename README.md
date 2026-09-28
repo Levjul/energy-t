@@ -44,6 +44,10 @@ Cross-domain comparisons and proposed mechanisms are research leads, not indepen
 
 [Existing E2–E7 records and the A2/C secondary analyses](RESEARCH_UPDATE_2026-09-28.md) are available as a separate reproducible package. E6 and A2 retain invalid-primary status; the C recount reports its lexical rules and denominators. This update adds no new model runs or AI4GOOD paper materials.
 
+## Terminology — 28 September 2026
+
+[Agreed terms and definitions](docs/glossary.md) distinguish information background and contextual layers, unregistered errors and hidden inheritance of error, verification practice and verification resilience, and entropy difference and entropy unevenness. Ethics of cooperation, shared responsibility, and mutual pressure → joint becoming preserve the conceptual scope of the project. Energy remains a research question; individual measurements retain their specified meaning.
+
 ## Maintenance
 
 Updates will be published as documented batches when substantive results or corrections are ready. Each batch should identify its source data, scope and changed conclusions. Infrequent updates do not imply that unresolved questions have been settled.

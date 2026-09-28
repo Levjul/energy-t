@@ -1,5 +1,7 @@
 # ECDL — Блок 5: Связи
 
+> Terminology update, 2026-09-28: [agreed definitions](docs/glossary.md) govern current usage. Original observations and numerical summaries retain their original scope; this edit is not a new validation of them. Earlier versions remain in repository history.
+
 ## Прямые пересечения (они классифицируют/детектируют, мы измеряем стоимость)
 
 ### AI-LieDar (NAACL 2025)
@@ -23,10 +25,10 @@ Probing внутренних представлений на правдивос�
 ## Нейробиология (кросс-доменные параллели)
 
 ### Spence (Sheffield, fMRI)
-Ложь активирует вентролатеральную префронтальную кору 4× сильнее правды. Параллель: ΔNLL 28–38×.
+Ложь активирует вентролатеральную префронтальную кору 4× сильнее правды. Параллель: отношение NLL 28–38×.
 
 ### Sharot (Nature Neuroscience, 2016)
-Slippery slope — амигдала привыкает к обману. Параллель: горизонт событий 7→10 ложей.
+Slippery slope — амигдала привыкает к обману. Параллель: изменение ответов при переходе от 7 к 10 внесённым ложным фактам в конкретном опыте.
 
 ### Nature 2017 (59 детей, fNIRS)
 Ложь снижает глобальную и локальную эффективность нейросети мозга. Первое прямое измерение.

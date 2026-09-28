@@ -1,5 +1,7 @@
 # C1 — Карта пересечений ECDL с внешними работами
 
+> Terminology update, 2026-09-28: [agreed definitions](docs/glossary.md) govern current usage. Original observations and numerical summaries retain their original scope; this edit is not a new validation of them. Earlier versions remain in repository history.
+
 ## Принцип чтения
 
 Столбцы: **Они** (что делают) → **Мы** (что добавляем) → **Связь** (как соотносится).
@@ -87,8 +89,8 @@
 
 | Работа | Их находка | Наша параллель |
 |---|---|---|
-| Spence (Sheffield, fMRI) | Ложь = 4× активация vl-PFC | ΔNLL 28–38× |
-| Sharot (Nature Neuroscience 2016) | Slippery slope: амигдала привыкает | Горизонт событий 7→10 |
+| Spence (Sheffield, fMRI) | Ложь = 4× активация vl-PFC | отношение NLL 28–38× |
+| Sharot (Nature Neuroscience 2016) | Slippery slope: амигдала привыкает | Изменение ответов в опыте при 7→10 внесённых ложных фактах |
 | Nature 2017 (59 детей, fNIRS) | Ложь снижает эффективность нейросети мозга | δR < 0 = снижение эффективности LLM |
 | Nature 2019 | Ложь обесценивает выгоду (RewP снижается) | Капитуляция 3B: wrong but confident |
 | Nuzzo & Greene 2024 | Executive control cost | Trajectory debt |
