@@ -40,6 +40,10 @@ These are exploratory tests with specific prompts, facts, model versions and pro
 
 Cross-domain comparisons and proposed mechanisms are research leads, not independent validation of these experiments. Historical hypotheses and literature notes are retained in the existing documents; their scope and supporting sources need to be read separately.
 
+## Data update — 28 September 2026
+
+[Existing E2–E7 records and the A2/C secondary analyses](RESEARCH_UPDATE_2026-09-28.md) are available as a separate reproducible package. E6 and A2 retain invalid-primary status; the C recount reports its lexical rules and denominators. This update adds no new model runs or AI4GOOD paper materials.
+
 ## Maintenance
 
 Updates will be published as documented batches when substantive results or corrections are ready. Each batch should identify its source data, scope and changed conclusions. Infrequent updates do not imply that unresolved questions have been settled.
